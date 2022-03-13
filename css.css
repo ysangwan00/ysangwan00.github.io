@@ -1,0 +1,122 @@
+body {
+  font-family: sans-serif, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1.367vw;
+} 
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #F0B67F;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.card-container {
+  width:95%;
+  text-align:center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.card-c1 {
+  float:left;
+  text-align: center;
+  width:19%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.card-c2 {
+  display: inline-block;
+  text-align: center;
+  margin:0 auto;
+  width:19%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.card-c3 {
+  float:right;
+  text-align: center;
+  width:19%;
+  margin-right: 6%;
+  margin-left: 6%;
+}
+
+.btn {
+  -moz-appearance: button;
+  -ms-appearance: button;
+  -o-appearance: button;
+  -webkit-appearance: button;
+  appearance: button;
+  cursor: pointer;
+  font-size: 1.074vw;
+  font-weight: bold;
+  line-height: 1.172vw;
+  border-radius: 0.488vw;
+  padding: 0.684vw 1.953vw;
+  background: #F0B67F;
+  margin: 0 auto;
+  color: black; 
+}
+
+.main-c {
+  width:95%;
+  text-align:center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  overflow:hidden
+}
+
+.card-text {
+  margin-top: 50px;
+  margin-left: 40%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+.card-image {
+  float:left;
+  width: 25%;
+  margin-left: 7%;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 1.563vw;
+}
+
+h2 {
+  font-size: 1.172vw;
+}
+
+h3 {
+  font-size: 1.016vw;
+}
+
+dd, dt {
+  font-size: 1.074vw;
+}
